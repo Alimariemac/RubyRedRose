@@ -52,6 +52,8 @@ group :development do
   gem 'spring'
 
   gem 'bootstrap-sass', '~> 3.3.7'
+  
+  gem 'font-awesome-sass', '~> 4.7.0'
 end
 
 
