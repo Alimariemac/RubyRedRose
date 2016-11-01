@@ -15,6 +15,9 @@ end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
+  gem 'bootstrap-sass', '~> 3.3.7'
+#use font awesome library for icons
+  gem 'font-awesome-sass', '~> 4.7.0'
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
@@ -51,9 +54,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
-  gem 'bootstrap-sass', '~> 3.3.7'
-  
-  gem 'font-awesome-sass', '~> 4.7.0'
+
 end
 
 
